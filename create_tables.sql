@@ -21,7 +21,7 @@ WITH (
     ENCODING = 'UTF16'
 )
 
-CREATE TABLE [dbo].[CustomerDest](
+CREATE TABLE [dbo].[CustomerSink](
     [CustomerID] [int] NOT NULL,
     [Title] [nvarchar](8) NULL,
     [FirstName] [nvarchar](50) NOT NULL,
